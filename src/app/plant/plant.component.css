@@ -1,0 +1,23 @@
+.container {
+  position: sticky;
+  max-width: 300px; /* Maximum width */
+  margin-left: 1000px; /* Center it */
+}
+
+  .container .content {
+    position: absolute; /* Position the background text */
+    top: 90px; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 55%; /* Full width */
+    padding: 20px; /* Some padding */
+  }
+
+body {
+  padding-top: 60px;
+}
+
+tble{
+  padding-top:60px;
+}

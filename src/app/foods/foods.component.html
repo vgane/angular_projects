@@ -1,0 +1,29 @@
+<body>
+  <table border="1">
+    <thead></thead>
+    <tr>
+      <th>foodId</th>
+      <th>dishName</th>
+      <th>foodDescription</th>
+      <th>amountofServings</th>
+      <th>pricePerServing</th>
+    </tr>
+
+    <tbody>
+      <tr *ngFor="let foods of foods">
+        <td>{{foods.foodId}}</td>
+        <td>{{foods.dishName}}</td>
+        <td>{{foods.foodDescription}}</td>
+        <td>{{foods.amountofServings}}</td>
+        <td>{{foods.pricePerServing}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="container" >
+    <img align="right" alt="Angular Logo" src="assets/images/44507605_2020708514677715_2435570017057123595_n.jpg" style="width:100%;">
+    <div class="content">
+      <h1>Food Market</h1>
+    </div>
+  </div>
+</body>

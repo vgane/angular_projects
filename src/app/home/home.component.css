@@ -1,0 +1,60 @@
+/* The navigation bar */
+
+.navbar {
+  z-index: 999;
+  overflow: auto;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: inherit;
+}
+
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+
+/*
+.main {
+  margin-top: 20px;  Add a top margin to avoid content overlay 
+}*/
+
+.alignright {
+  float: right;
+}
+
+.container {
+  position: center;
+  max-width: 800px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+  .container .content {
+    position: absolute; /* Position the background text */
+    top: 90px; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 55%; /* Full width */
+    padding: 20px; /* Some padding */
+  }
+
+body {
+  padding-top: 60px;
+}
